@@ -5,9 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import ContentWrapper from './ContentWrapper';
 import '../css/AddBook.css';
 
-// const API_KEY = 'AIzaSyBNZW4NF0E0ISmTN7HQbwaHL6aRB3QIpqQ';
-// const API_KEY = 'AIzaSyCQLHEacmhWROPybqvUY6B1lGYo0i2VoAA'; //Asta
-
+// const API_KEY = 'AIzaSyBNZW4NF0E0ISmTN7HQbwaHL6aRB3QIpqQ'; 
 const AddBook = ({updateBookData}) => {
   const [searchInput, setSearchInput] = useState('');
   const [books, setBooks] = useState([]);
